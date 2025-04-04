@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Presentation.Data;
 using System;
+using Persistence;
 
 namespace Presentation.Data.Migrations;
 [DbContext(typeof(ApplicationDbContext))]

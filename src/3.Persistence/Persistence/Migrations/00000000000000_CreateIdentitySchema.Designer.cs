@@ -4,10 +4,10 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Presentation.Data;
 using System;
+using Persistence;
 
-namespace Presentation.Data.Migrations;
+namespace Persistence.Migrations;
 [DbContext(typeof(ApplicationDbContext))]
 [Migration("00000000000000_CreateIdentitySchema")]
 partial class CreateIdentitySchema
